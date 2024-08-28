@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background: antiquewhite;
+}
+h1 {
+  font-size: 70px;
+  justify-content: center;
+  display: flex;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 40px;
+  padding-left: 44px;
+  background-color: #4545bd;
+  padding-top: 24px;
+  color: #ffffffe8;
+  border-radius: 114px;
+  border: 6px solid #c67474;
+  position: relative;
+}
+
+.button {
+  width: 20vw;
+  justify-content: center;
+  display: flex;
+  height: 14vh;
+  font-size: 82px;
+  padding-top: 16px;
+}
+.dash1 {
+  font-size: 82px;
+  position: absolute;
+  right: 326px;
+  color: #974f4f;
+}
+.container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  margin-top: 60px;
+}
+.Startbtn {
+  width: 16vw;
+  justify-content: center;
+  display: flex;
+  height: 9vh;
+  font-size: 40px;
+  padding-top: 16px;
+  background: #2caa2c;
+  color: wheat;
+  border: none;
+  border-radius: 14px;
+}
+.Stopbtn {
+  width: 16vw;
+  justify-content: center;
+  display: flex;
+  height: 9vh;
+  font-size: 40px;
+  padding-top: 16px;
+  background: red;
+  color: wheat;
+  border: none;
+  border-radius: 14px;
+}
+.Resetbtn {
+  width: 16vw;
+  justify-content: center;
+  display: flex;
+  height: 9vh;
+  font-size: 40px;
+  padding-top: 16px;
+  background: #605050;
+  color: wheat;
+  border: none;
+  border-radius: 14px;
+}
+
+.Startbtn:hover {
+  background: #228822;
+  transform: scale(1.05);
+}
+
+.Stopbtn:hover {
+  background: #b20000;
+  transform: scale(1.05);
+}
+
+.Resetbtn:hover {
+  background: #4a3f3f;
+  transform: scale(1.05);
+}
+
+.input-container {
+  padding-top: 85px;
+  font-size: 41px;
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  color: #a23434;
+  padding-left: 12px;
+  font-weight: bold;
+}
+input {
+  height: 43px;
+  width: 100px;
+  text-align: center;
+  font-size: 32px;
+  border-block-end-color: blanchedalmond;
+  margin-left: 4px;
+}
+
+@media (min-width: 1000px) {
+  .dash1 {
+    font-size: 82px;
+    position: absolute;
+    right: 448px;
+    color: #974f4f;
+  }
+}
+
+@media (max-width: 1241px) {
+  .dash1 {
+    font-size: 62px;
+    color: #974f4f;
+    right: 342px;
+    position: absolute;
+  }
+  .button {
+    width: 31vw;
+    justify-content: center;
+    display: flex;
+    height: 7vh;
+    font-size: 70px;
+    padding: 9px 0px;
+    padding-bottom: 17px;
+
+  }
+  .Startbtn {
+    width: 22vw;
+    height: 7vh;
+  }
+  .Stopbtn {
+    width: 22vw;
+    height: 7vh;
+  }
+  .Resetbtn {
+    width: 22vw;
+    height: 7vh;
+  }
+  .container3 {
+    gap: 38px;
+  }
+}
+
+@media (max-width: 1420px) {
+  .dash1 {
+    font-size: 87px;
+    color: #974f4f;
+    position: absolute;
+    right: 340px;
+  }
+}
